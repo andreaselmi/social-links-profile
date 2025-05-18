@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/root.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <!-- Preload the Inter font to improve initial page load performance -->
+  <link rel="preload" href="./assets/fonts/Inter-VariableFont_slnt,wght.ttf" as="font" type="font/ttf" crossorigin>
 
-  <title>Frontend Mentor | Social links profile</title>
+  <title>Andrea Selmi | Social links profile</title>
 </head>
 
 <body>
@@ -28,21 +30,32 @@
 
       <ul class="social-card__links">
         <li class="social-card__link-item">
-          <a class="social-card__link button" href="https://github.com/andreaselmi" target="_blank">GitHub</a>
+          <a class="social-card__link button" href="https://github.com/andreaselmi" target="_blank"
+            aria-label="Visit Jessica's GitHub profile">GitHub</a>
         </li>
         <li class="social-card__link-item">
-          <a class="social-card__link button" href="https://frontendmentor.io/profile/andreaselmi"
-            target="_blank">Frontend
-            Mentor</a>
+          <a class="social-card__link button" href="https://frontendmentor.io/profile/andreaselmi" target="_blank"
+            aria-label="Visit Jessica's Frontend Mentor profile">
+            Frontend Mentor
+          </a>
         </li>
         <li class="social-card__link-item">
-          <a class="social-card__link button" href="https://linkedin.com/in/andrea-selmi/" target="_blank">LinkedIn</a>
+          <a class="social-card__link button" href="https://linkedin.com/in/andrea-selmi/" target="_blank"
+            aria-label="Visit Jessica's LinkedIn profile">
+            LinkedIn
+          </a>
         </li>
         <li class="social-card__link-item">
-          <a class="social-card__link button" href="https://twitter.com/random-profile" target="_blank">Twitter</a>
+          <a class="social-card__link button" href="https://twitter.com/random-profile" target="_blank"
+            aria-label="Visit Jessica's Twitter profile">
+            Twitter
+          </a>
         </li>
         <li class="social-card__link-item">
-          <a class="social-card__link button" href="https://instagram.com/andreaselmi_" target="_blank">Instagram</a>
+          <a class="social-card__link button" href="https://instagram.com/andreaselmi_" target="_blank"
+            aria-label="Visit Jessica's Instagram profile">
+            Instagram
+          </a>
         </li>
       </ul>
     </article>
