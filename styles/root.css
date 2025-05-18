@@ -1,0 +1,74 @@
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+  font-weight: 100 900; /* range */
+}
+
+:root {
+  /* COLORS */
+  --green: #C4F82A;
+  --gray-900: #141414;
+  --gray-800: #1F1F1F;
+  --gray-700: #333333;
+  --white: #FFFFFF;
+
+  /* TOKENS */
+  --color-primary: var(--green);
+  --color-text-primary:  var(--white);
+  --color-background: var(--gray-900);
+  --color-background-secondary: var(--gray-800);
+  --color-background-tertiary: var(--gray-700);
+
+  /* TYPOGRAPHY */
+  --font-family-bold: 'Inter', sans-serif;
+  --font-family-regular: 'Inter', sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+
+  /* PRESET 1 */
+  --typography-preset-1-font-size: 1.5rem; /* 24px */
+  --typography-preset-1-line-height: 150%;
+  --typography-preset-1-letter-spacing: 0rem;
+
+  /* PRESET 2 */
+  --typography-preset-2-font-size: 0.875rem; /* 14px */
+  --typography-preset-2-line-height: 150%;
+  --typography-preset-2-letter-spacing: 0rem;
+
+  /* END TYPOGRAPHY */
+  
+  /* SPACING */
+  --spacing-500: 2.5rem; /* 40px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-150: 0.75rem; /* 12px */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-50: 0.25rem; /* 4px */
+}
+
+.typography-1 {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--typography-preset-1-font-size);
+  line-height: var(--typography-preset-1-line-height);
+  letter-spacing: var(--typography-preset-1-letter-spacing);
+}
+
+.typography-2 {
+  font-family: var(--font-family-regular);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--typography-preset-2-font-size);
+  line-height: var(--typography-preset-2-line-height);
+  letter-spacing: var(--typography-preset-2-letter-spacing);
+}
+
+.typography-2-bold {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--typography-preset-2-font-size);
+  line-height: var(--typography-preset-2-line-height);
+  letter-spacing: var(--typography-preset-2-letter-spacing);
+}
+
+
